@@ -1,0 +1,18 @@
+body {
+               
+ 
+    height: 40%;
+}
+#food-container{
+height: 250px;
+width: 950px;
+float: left; 
+display: inline-block;
+
+}
+h1{
+    text-align: center;
+}
+.card-img-top{
+width: 300px;
+}
