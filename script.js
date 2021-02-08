@@ -7,6 +7,7 @@ const searchFood = () =>{
 }
    const displayFood = foods => {
        const foodContainer = document.getElementById('food-container');
+       foodContainer.innerHTML = '';
      foods.forEach(food => {
          const foodDiv = document.createElement('div');
          foodDiv.className = 'card';
